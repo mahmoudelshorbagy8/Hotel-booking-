@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;1,100;1,200&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+:root{
+  --blue: #00008B;
+  --green: #00A36C;
+  --white: #eee;
+}
+
+.main-btn{
+  background: var(--green);
+  color: #fff;
+  padding: .5rem 1rem;
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  border-radius: .5rem;
+  transition: .5s ease-in;
+}
+.main-btn:hover{
+  border: .1rem solid var(--blue);
+  background: #fff;
+  color: var(--green);
+}
+.min-content{
+  text-align: center;
+  padding: 1rem;
+}
+.min-content i{
+  font-size: 12rem;
+  opacity: 0.1;
+  color: var(--green);
+}
+.min-content h2{
+  font-size: 2rem;
+  color: var(--blue);
+  padding-bottom: .5rem;
+}
+
+/* start navigation*/
+.navbar{
+  background: var(--blue);
+}
+.navbar img{
+  width: 30px;
+}
+.navbar .navbar-nav .nav-link{
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.navbar .navbar-toggler{
+  color: #fff;
+  font-size: 1.5rem;
+  border-color: #fff;
+}
+.navbar .navbar-toggler:focus{
+  box-shadow: none;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover{
+  color: var(--green);
+}
+
+
+/* landing start*/
+.hero{
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(landing.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero .text-hero h1{
+  color: #fff;
+  font-size: 4.4rem;
+  line-height: 1.8;
+}
+
+.hero .text-hero p {
+  color: #ededee;
+  font-size: 1.7rem;
+}
+.hero .text-hero .btn{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 1rem;
+  outline: none;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: .5rem .5rem 0 rgba(0, 0, 0, .2);
+  cursor: pointer;
+  transition: .5s ease-in linear;
+}
+.hero .text-hero .btn:hover{
+  background: #333;
+  box-shadow: none;
+}
+
+/*book now */
+.book{
+  background: var(--white);
+}
+
+form .flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+form .flex-box .input-box{
+  flex: 1 1 20rem;
+}
+form .flex-box .input-box p{
+  font-size: 2rem;
+  color: var(--blue);
+}
+form .flex-box .input-box i{
+  color: var(--green);
+  margin-left: .5rem;
+}
+form .flex-box .input-box .inPut{
+  width: 100%;
+  padding: 1rem 0;
+  font-size: 1.8rem;
+  border: 0;
+  background: transparent;
+  margin: 1rem 0;
+  border-bottom: .1rem solid #333;
+}
+
+/* statt about*/
+
+.flexible h3{
+  font-size: 3rem;
+  color: var(--blue);
+}
+.flexible p{
+  font-size: 1.8rem;
+  color: #666;
+  padding: 1rem 0;
+}
+/* start service*/
+.services{
+  background: var(--white);
+}
+.services .icons{
+  height: 30rem;
+}
+.services .icons span i{
+  left: 50%;
+  transform: translateX(-50%);
+}
+.services .icons .number{
+  font-size: 12rem;
+  color: var(--blue);
+  opacity: 0.1;
+}
+.services .icons i{
+  font-size: 3rem;
+  color: var(--green);
+}
+
+/* slider*/
+.slider{
+  background: var(--white);
+}
+.slider .item{
+ margin: .6rem;
+ padding: 1rem;
+ border-radius: 1rem;
+ text-align: center;
+ 
+}
+.slider .item .slide-text{
+ padding: 1rem;
+}
+.slider .item .slide-text h2{
+  font-size: 2rem;
+  color: var(--green);
+}
+.slider .item .slide-text p{
+  font-size: 1.5rem;
+  color: var(--blue);
+  padding-top: .5rem;
+}
+
+.slider .item img{
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+/* said bar right starting */
+.heading{
+  background: var(--blue);
+  color: var(--green);
+  padding: 1rem;
+  text-align: center;
+  border-radius: .5rem;
+}
+.heading h4{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.heading p{
+  font-size: 1.7rem;
+  margin-top: 1rem;
+}
+.body-said{
+ padding: .7rem;
+}
+.body-said a{
+  text-decoration: none;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+ background: var(--white);
+ margin-bottom: .5rem;
+ border-radius: .5rem;
+ color: var(--green);
+ transition: .3s ease-in;
+}
+.body-said a:hover,
+.body-said a:focus{
+  color: var(--blue);
+  background: var(--green);
+}
+.body-said a h4{
+  font-size: 2rem;
+}
+.body-said  img{
+  width: 50%;
+  margin: .5rem;
+  border-radius: .6rem;
+}
+/* blog*/
+#blog{
+  background: #eee;
+}
+/* contact Us start */
+.contactUs form{
+  padding: 1rem 2rem;
+  background: #eee;
+  border-radius: .5rem;
+}
+.contactUs form .inputs{
+  position: relative;
+}
+.contactUs form .inputs input,
+.contactUs form .inputs textarea{
+  width: 100%;
+  padding: .7rem 0;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 1.7rem;
+  border-bottom: .1rem solid rgba(0, 0, 0, .1);
+  text-transform: none;
+}
+.contactUs form .inputs textarea{
+  resize: none;
+  height: 12rem;
+}
+.contactUs form .inputs label{
+  position: absolute;
+  top: 1.7rem;
+  left: 0;
+  color: var(--green);
+  transition: .3s linear;
+}
+.contactUs form .inputs input:focus~label,
+.contactUs form .inputs input:valid~label,
+.contactUs form .inputs textarea:focus~label,
+.contactUs form .inputs textarea:focus~label{
+ top: .1rem;
+ font-size: 1.5rem;
+ color: var(--blue);
+}
+/* start gallery */
+.gallery{
+  background: var(--white);
+}
+.gallery .gallery-box{
+  overflow: hidden;
+  margin: .5rem;
+  height: 25rem;
+  border-radius: .5rem;
+  position: relative;
+}
+.gallery .gallery-box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery .gallery-box .text-gallery h4 {
+  font-size: 2.5rem;
+  color: var(--green);
+}
+
+.gallery .gallery-box .text-gallery p {
+  font-size: 1.7rem;
+  color: #fff;
+  padding: .5rem;
+}
+.gallery .gallery-box .text-gallery{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  padding-top: 5rem;
+  background: rgba(0, 0, 0, .5);
+  position: absolute;
+  left: 0;
+  top: -100%;
+  transition: .4s;
+}
+.gallery .gallery-box:hover .text-gallery{
+  top: 0;
+}
+/* box model*/
+.modal .modal-content{
+ background: var(--white);
+}
+.modal .modal-content .modal-title{
+ font-size: 2rem;
+ color: var(--green);
+}
+.modal .modal-content .modal-body{
+  background: #fff;
+}
+.modal .modal-content .modal-body p{
+  font-size: 1.7rem;
+  padding: 1rem;
+  color: var(--green);
+}
+.modal .modal-content .tyep label{
+  font-size: 1.4rem;
+  color: var(--green);
+}
+.modal .modal-content .modal-body .meddia{
+  border-top: .1rem solid rgba(0, 0, 0, .1);
+  text-align: center;
+}
+.modal .modal-content .modal-body .meddia h5 {
+  padding-top: 1rem;
+  font-size: 1.7rem;
+  color: var(--green);
+}
+.modal .modal-content .modal-body .meddia i{
+  display: block;
+  margin: .5rem;
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 1rem;
+  color: #fff;
+}
+.modal .modal-content .modal-body .meddia .fa-facebook{
+  background:#1877f2;
+  border-radius: .5rem;
+  transition: 0.3s ease-in;
+}
+.modal .modal-content .modal-body .meddia .fa-facebook:hover{
+  background: #333;
+}
+.modal .modal-content .modal-body .meddia .fa-google {
+  background: #34a853; 
+  border-radius: .5rem;
+  transition: 0.3s ease-in;
+}
+.modal .modal-content .modal-body .meddia .fa-google:hover {
+  background: #333;
+}
+
+/* start footer*/
+footer{
+  background: var(--blue);
+}
+
+footer .box-container{
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  margin: 0 auto;
+}
+footer .box-container h3{
+  padding: 1rem 0;
+  color: var(--green);
+  font-size: 1.3rem;
+}
+footer .box-container a{
+  display: block;
+  text-decoration: none;
+  padding: 1rem 0;
+  color: var(--white);
+  font-size: 1.5rem;
+}
+footer .box-container a i{
+  padding-right: .5rem;
+  color: var(--green);
+}
+footer .box-container a:hover i{
+  padding-right: 2rem;
+}
+
+footer .credit {
+  font-size: 1.7rem;
+  font-weight: normal;
+  letter-spacing: .1px;
+  color: var(--white);
+  border-top: .5px solid var(--white);
+  padding: 1rem;
+  text-align: center;
+}
+footer span {
+  color: var(--green);
+}
+
+
+
+
+
+
+
+@media(max-width: 991px){
+  html{
+    font-size: 60%;
+  }
+}
+
+@media(max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
