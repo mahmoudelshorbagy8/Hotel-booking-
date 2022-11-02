@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>hotel</title>
+    <!-- bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+ <!-- Custom Fontawesome-->
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+<!-- the slick-theme.css  -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<!-- the slick-theme.css -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <!-- Custom Styles -->
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!--section header start-->
+<nav class="navbar navbar-expand-md sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="logo.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active p-lg-3" aria-current="page" href="#home">home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-lg-3" href="#about">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-lg-3" href="#services">services</a>
+        </li>
+       <li class="nav-item">
+         <a class="nav-link p-lg-3" href="#blog">blog</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link p-lg-3" href="#gallery">gallery</a>
+       </li>
+      </ul>
+     
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!--section header end-->
+
+<!--section landing start-->
+
+<section class="hero" id="home">
+  <div class="text-hero text-center">
+   <h1>enjoy the weekend</h1>
+    <p> in publishing and graphic design, Lorem ipsum is a <br>placeholder text commonly used to demonstrate the visual form</p>
+   <button class="main-btn"
+   data-bs-toggle="modal" data-bs-target="#exampleModalToggle">Register now</button>
+  </div>
+   
+  
+</section>
+<!-- book now --->
+<section class="book p-5" id="home">
+  <div class="container">
+    <form action="" method="poat">
+      <div class="flex-box">
+        <div class="input-box">
+      <p><i class="fas fa-check"></i> check in </p>
+          <input type="date" name="check_in" class="inPut" required>
+        </div>
+       <div class="input-box">
+    <p><i class="fas fa-times"></i> check out </p>
+      <input type="date" name="check_out" class="inPut" required>
+       </div>
+     <div class="input-box">
+      <p><i class="fas fa-user"></i> adult</p>
+         <select name="adult" class="inPut" required>
+           <option value="1">1 adult</option>
+           <option value="2">2 adults</option>
+           <option value="3">3 adults</option>
+           <option value="4">4 adults</option>
+           <option value="5">5 adults</option>
+         </select>
+         </div>
+           <div class="input-box">
+        <p><i class="fas fa-users"></i> child </p>
+             <select name="child" class="inPut" required>
+               <option value="-">0 child</option>
+               <option value="1">1 child</option>
+               <option value="2">2 childs</option>
+               <option value="3">3 childs</option>
+               <option value="4">4 childs</option>
+               <option value="5">5 childs</option>
+             </select>
+           </div>
+         <div class="input-box">
+           <p><i class="fas fa-bed"></i> room</p>
+           <select name="child" class="inPut" required>
+             <option value="1">1 room</option>
+             <option value="2">2 room</option>
+             <option value="3">3 room</option>
+             <option value="4">4 room</option>
+             <option value="5">5 room</option>
+           </select>
+         </div>
+      </div>
+     <button class="main-btn">vailability</button>
+    </form>
+  </div>
+</section>
+<!--section landing end---->
+
+<!--section about start---->
+<section class="about p-5 " id="about">
+  <div class="container">
+     <div class="min-content">
+       <i class="fas fa-user mb-4"></i>
+       <h2>why choose us</h2>
+     </div>
+     <div class="row aling-items-center">
+       <div class="col-lg-4 md-4 text-center text-md-start">
+       <div class="flexible">
+         <h3>about us</h3>
+         <p> in publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content</p>
+         <button type="button" class="main-btn">availability</button>
+       </div>
+       </div>
+       <div class="col-lg-8">
+        <div class="image-about">
+         <img src="about.png" class="img-fluid w-100">
+        </div>
+       </div>
+     </div>
+  </div>
+</section>
+<!--section about end---->
+ 
+ <section class="services p-5 text-center" id="services">
+  <div class="container">
+    
+    <div class="min-content">
+     <i class="fas fa-feather mb-4"></i>
+      <h2>we are here for you</h2>
+    </div>
+    <div class="row">
+      
+      <div class="col-md-6 col-lg-4">
+        <div class="grow p-5">
+       <div class="icons position-relative">
+         <span class="number position-absolute bottom-0">1</span>
+         <i class="fas fa-utensils position-absolute bottom-0"></i>
+       </div>
+       <h4 class="md-4 mt-3">free breakfast</h4>
+        <p class="text-black-50 lh-lg"> in publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content</p>
+        </div>
+      </div>
+      
+         <div class="col-md-6 col-lg-4">
+           <div class="grow p-5">
+             <div class="icons position-relative">
+               <span class="number position-absolute bottom-0">2</span>
+                <i class="fas fa-plane position-absolute bottom-0"></i>
+             </div>
+             <h4 class="md-4 mt-3">Trip Planner</h4>
+             <p class="text-black-50 lh-lg"> in publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content</p>
+           </div>
+         </div>
+         
+         <div class="col-md-6 col-lg-4">
+           <div class="grow p-5">
+             <div class="icons position-relative">
+               <span class="number position-absolute bottom-0">3</span>
+               <i class="fas fa-wifi position-absolute bottom-0"></i>
+             </div>
+             <h4 class="md-4 mt-3">free wi-fi</h4>
+             <p class="text-black-50 lh-lg"> in publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content</p>
+           </div>
+         </div>
+         
+       <div class="col-md-6 col-lg-4">
+         <div class="grow p-5">
+           <div class="icons position-relative">
+             <span class="number position-absolute bottom-0">4</span>
+             <i class="fas fa-users position-absolute bottom-0"></i>
+           </div>
+           <h4 class="md-4 mt-3">best staff</h4>
+           <p class="text-black-50 lh-lg"> in publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content</p>
+         </div>
+       </div>
+       
+       
+          <div class="col-md-6 col-lg-4">
+            <div class="grow p-5">
+              <div class="icons position-relative">
+                <span class="number position-absolute bottom-0">5</span>
+                <i class="fas fa-bed position-absolute bottom-0"></i>
+              </div>
+              <h4 class="md-4 mt-3">room services</h4>
+              <p class="text-black-50 lh-lg"> in publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content</p>
+            </div>
+          </div>
+      
+         <div class="col-md-6 col-lg-4">
+           <div class="grow p-5">
+             <div class="icons position-relative">
+               <span class="number position-absolute bottom-0">6</span>
+               <i class="fas fa-hand-holding-usd position-absolute bottom-0"></i>
+             </div>
+             <h4 class="md-4 mt-3">have discount</h4>
+             <p class="text-black-50 lh-lg"> in publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content</p>
+           </div>
+         </div>
+    </div>
+   </div>
+   </section>
+         <!--section slide & said right----->
+   
+ <section class="slide p-5" id="services">
+   <div class="container">
+    <div class="min-content">
+      <i class="fas fa-feather mb-4"></i>
+      <h2>especially places</h2>
+    </div>
+     <div class="row">
+       
+       <!-- start slide---->
+       <div class="col-md-8 col-lg-8">
+        <div class="slider">
+          
+          <div class="item">
+            <img src="hotel 1.jpg">
+            <div class="slide-text">
+              <h2>foods & drink</h2>
+              <p>publishing and graphic design, Lorem ipsum</p>
+               <button  class="main-btn">see more</button>
+            </div>
+          </div>
+ 
+           <div class="item">
+             <img src="hotel 2.jpg">
+             <div class="slide-text">
+               <h2>pool swimming</h2>
+               <p>publishing and graphic design, Lorem ipsum</p>
+                <button  class="main-btn">try it</button>
+             </div>
+           </div>
+           
+           <div class="item">
+             <img src="hotel 3.jpg">
+             <div class="slide-text">
+               <h2>enjoy position</h2>
+               <p>publishing and graphic design, Lorem ipsum</p>
+               <button  class="main-btn">become first</button>
+             </div>
+           </div>
+          
+
+          <div class="item">
+            <img src="hotel 4.jpg">
+            <div class="slide-text">
+              <h2>party place</h2>
+              <p>publishing and graphic design, Lorem ipsum</p>
+               <button  class="main-btn">nice see </button>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="hotel 5.jpg">
+            <div class="slide-text">
+              <h2>especially room</h2>
+              <p>publishing and graphic design, Lorem ipsum</p>
+               <button  class="main-btn">booking now</button>
+            </div>
+          </div>
+        </div>
+       </div>
+      <!-- slide ends---> 
+      
+      <!-- said bar right starting--->
+     
+       <div class="col-md-4 col-lg-4">
+      <div class="said-right">
+        <div class="heading">
+          <h4>special to you</h4>
+          <p>publishing and graphic</p>
+        </div>
+        <div class="body-said">
+          
+          <a href="">
+            <img src="hotel 5.jpg" alt="">
+            <h4>room</h4>
+          </a>
+          
+         <a href="">
+           <img src="hotel 1.jpg" alt="">
+           <h4>drinks</h4>
+         </a>
+           <a href="">
+             <img src="hotel 3.jpg" alt="">
+             <h4>pool</h4>
+           </a>
+              <a href="">
+                <img src="landing.jpeg" alt="">
+                <h4>Trip</h4>
+              </a>
+        </div>
+      </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ 
+ <!--section blog start-->
+ 
+ <section class="pt-5 pb-5" id="blog">
+   <div class="container">
+     <div class="min-content">
+   <i class="fas fa-pen mb-4"></i>
+   <h2>some awesome blog</h2>
+ </div>
+ <div class="row">
+   
+   <div class="col-md-6 col-lg-4 mt-5">
+     <div class="card">
+       <img src="hotel 5.jpg" class="card-img-top">
+       <div class="card-body">
+          <h5 class="card-title">blog title</h5>
+          <p class="card-text"> in publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+       </div>
+      
+     </div>
+   </div>
+   
+   <div class="col-md-6 col-lg-4 mt-5">
+     <div class="card">
+       <img src="hotel 1.jpg" class="card-img-top">
+       <div class="card-body">
+         <h5 class="card-title">blog title</h5>
+         <p class="card-text"> in publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content</p>
+         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+       </div>
+   
+     </div>
+   </div>
+   
+   <div class="col-md-6 col-lg-4 mt-5">
+     <div class="card">
+       <img src="hotel 4.jpg" class="card-img-top">
+       <div class="card-body">
+         <h5 class="card-title">blog title</h5>
+         <p class="card-text"> in publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content</p>
+         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+       </div>
+   
+     </div>
+   </div>
+   
+  
+   <div class="col-md-6 col-lg-4 mt-5">
+     <div class="card">
+       <img src="hotel 4.jpg" class="card-img-top">
+       <div class="card-body">
+         <h5 class="card-title">blog title</h5>
+         <p class="card-text"> in publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content</p>
+         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+       </div>
+     </div>
+   </div>
+   </div>
+ </div>
+   </div>
+ </section>
+ <!-- section contact us start---->
+ 
+ <section class="contactUs pt-5 pb-5">
+  <div class="container">
+      <div class="min-content">
+        <i class="fas fa-phone mb-4"></i>
+        <h2>Contact us</h2>
+      </div>
+    <div class="row">
+      <div class=" col-md-6 mt-5">
+       <form action="#">
+         <div class="inputs">
+           <input type="name" required>
+           <label>name</label>
+         </div>
+         
+        <div class="inputs">
+          <input type="number" required>
+          <label>number</label>
+        </div> 
+        
+         <div class="inputs">
+         <textarea required name="" id="" cols="30" rows="10"></textarea>
+           <label>message</label>
+         </div>
+         <input type="submit" class="main-btn" value="send message">
+       </form>
+      </div>
+      <div class=" col-md-6">
+       <img src="about.png" class="w-100">
+    </div>
+  </div>
+ </section>
+ 
+ <!-- section gallery start--->
+ 
+ <section class="gallery pt-5 pb-5" id="gallery">
+   
+   <div class="container">
+     <div class="min-content">
+       <i class="fas fa-image mb-4"></i>
+       <h2>awesome some gallery</h2>
+     </div>
+     <div class="row">
+       
+      <div class="col-md-6 col-lg-4 mt-5">
+        <div class="gallery-box">
+          <img src="hotel 5.jpg" alt="">
+          <div class="text-gallery">
+            <h4>especially room</h4>
+            <p>orem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <button class="main-btn">explore</button>
+          </div>
+        </div>
+      </div> 
+       
+          <div class="col-md-6 col-lg-4 mt-5">
+            <div class="gallery-box">
+              <img src="hotel 1.jpg" alt="">
+              <div class="text-gallery">
+                <h4>especially room</h4>
+                <p>orem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <button class="main-btn">explore</button>
+              </div>
+            </div>
+          </div>
+       
+             <div class="col-md-6 col-lg-4 mt-5">
+               <div class="gallery-box">
+                 <img src="hotel 4.jpg" alt="">
+                 <div class="text-gallery">
+                   <h4>especially room</h4>
+                   <p>orem ipsum dolor sit amet consectetur adipisicing elit</p>
+                   <button class="main-btn">explore</button>
+                 </div>
+               </div>
+             </div>
+      
+           <div class="col-md-6 col-lg-4 mt-5">
+             <div class="gallery-box">
+               <img src="hotel 2.jpg" alt="">
+               <div class="text-gallery">
+                 <h4>especially room</h4>
+                 <p>orem ipsum dolor sit amet consectetur adipisicing elit</p>
+                 <button class="main-btn">explore</button>
+               </div>
+             </div>
+           </div>
+             <div class="col-md-6 col-lg-4 mt-5">
+               <div class="gallery-box">
+                 <img src="landing.jpeg" alt="">
+                 <div class="text-gallery">
+                   <h4>especially room</h4>
+                   <p>orem ipsum dolor sit amet consectetur adipisicing elit</p>
+                   <button class="main-btn">explore</button>
+                 </div>
+               </div>
+             </div>
+              <div class="col-md-6 col-lg-4 mt-5">
+                <div class="gallery-box">
+                  <img src="hotel 3.jpg" alt="">
+                  <div class="text-gallery">
+                    <h4>especially room</h4>
+                    <p>orem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <button class="main-btn">explore</button>
+                  </div>
+                </div>
+              </div>
+     </div>
+   </div>
+ </section>
+
+<!------------Modal ----------->
+
+ <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+   <div class="modal-dialog modal-dialog-centered">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalToggleLabel">new account</h5>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+        <p>flow the form and will get back to you</p>
+        <form action="">
+         <div class="tyep mb-3">
+         <label for="first-name" class="col-form-label">
+            first name:
+           </label>
+           <input type="name" placeholder="first name" class="form-control" id="first-name">
+          </div>
+          
+         <div class="tyep mb-3">
+         <label for="first-name" class="col-form-label">
+            last name:
+           </label>
+           <input type="name" placeholder="last name" class="form-control" id="last-name">
+          </div>
+          
+           <div class="tyep mb-3">
+             <label for="email" class="col-form-label">
+                email:
+             </label>
+             <input type="email" placeholder="examp@emil.com.." class="form-control" id="email">
+           </div>
+          
+       
+           <div class="tyep mb-3">
+             <label for="password" class="col-form-label">
+               password:
+             </label>
+             <input type="password" placeholder="password" class="form-control" id="password">
+           </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Agree with the all and read
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+              not agree
+            </label>
+          </div>
+        </form>
+        <div class="meddia mb-3">
+         <h5>sing in with email</h5>
+         <i class="fab fa-facebook"></i>
+         <i class="fab fa-google"></i>
+        </div>
+       </div>
+       <div class="modal-footer">
+         <button class="main-btn" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">my account</button>
+        <button type="button" class="main-btn" data-bs-dismiss="modal">send</button>
+       </div>
+     </div>
+   </div>
+ </div>
+ <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+   <div class="modal-dialog modal-dialog-centered">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalToggleLabel2">my Login</h5>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+             <form action="">
+               <div class="tyep mb-3">
+                 <label for="email" class="col-form-label">
+                   enter email:
+                 </label>
+                 <input type="email" placeholder="your email" class="form-control" id="email">
+               </div>
+     
+              <div class="tyep mb-3">
+             <label for="password" class="col-form-label">
+                 password:
+                </label>
+               <input type="password" placeholder="password" class="form-control" id="email">
+                </div>
+             </form>
+       </div>
+       <div class="modal-footer">
+         <button class="main-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back</button>
+        <button type="button" class="main-btn" data-bs-dismiss="modal">send</button
+       </div>
+     </div>
+   </div>
+ </div>
+<!---- footer starting--------->
+<footer class="p-5">
+   <div class="box-container">
+     <div class="box-footer">
+       <h3>quick links</h3>
+       <a href="#"> <i class="fas fa-angle-right"></i> home</a>
+      <a href="#"> <i class="fas fa-angle-right"></i> about</a>
+     <a href="#"> <i class="fas fa-angle-right"></i> services</a>
+    <a href="#"> <i class="fas fa-angle-right"></i> blog</a>
+   <a href="#"> <i class="fas fa-angle-right"></i> gallery</a>
+     </div>
+     
+      <div class="box-footer">
+    <h3 >contact info</h3>
+    <a href="#"> <i class="fas fa-phone-alt"></i> +453-346-346</a>
+    <a href="#"> <i class="fas fa-phone-alt"></i> +453-346-678</a>
+    <a href="#"> <i class="fas fa-map-marker-alt"></i> bytom, poland - 2 </a>
+    <a href="#"> <i class="fas fa-envelope"></i> info@email.com</a>
+      </div>
+     
+       <div class="box-footer">
+        <h3>follow us</h3>
+        <a href="#"> <i class="fab fa-facebook-f"></i> facebook</a>
+       <a href="#"> <i class="fab fa-twitter"></i> twitter</a>
+        <a href="#"> <i class="fab fa-instagram"></i> instagram</a>
+         <a href="#"> <i class="fab fa-google"></i> google</a>
+          <a href="#"> <i class="fab fa-linkedin"></i> linkedin</a>
+          
+       </div>
+   </div> 
+    <h1 class="credit"> &copy; copyright @ 2022 by <span>CODZERO</span></h1>
+  
+  </footer>
+  <!-- end project----->
+ 
+
+ <!-- bootstrap js cdn-->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- jquery js cdn --->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+ 
+ <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- main js------->
+  <script src="main.js"></script>
+
+ 
+</body>
+</html>
